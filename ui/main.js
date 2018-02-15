@@ -3,4 +3,4 @@ console.log('Loaded!');
 
 var element = document.getElementById('maintext');
 
-element.innerText = 'NEw value'
+element.innerText = 'NEw value';
