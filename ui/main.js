@@ -12,11 +12,11 @@ var imageselect = document.getElementById('img');
 var marginLeft  = 0;
 function moveRight(){
     
-    marginLeft = marginLeft +10;
+    marginLeft = marginLeft + 1;
     imageselect.style.marginLeft  = marginLeft +'px';
 }
 
 imageselect.onclick = function(){
-    var interval = setInterval(moveRight,100);
+    var interval = setInterval(moveRight,50);
     
 };
