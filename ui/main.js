@@ -12,7 +12,7 @@ var imageselect = document.getElementById('img');
 var marginLeft  = 0;
 function moveRight(){
     
-    marginLeft = maginLeft +10;
+    marginLeft = marginLeft +10;
     imageselect.style.marginLeft  = marginLeft +'px';
 }
 
