@@ -11,6 +11,6 @@ element.innerText = 'NEw value';
 var imageselect = document.getElementById('img');
 
 imageselect.onclick = function(){
-    imageselect.style.marginleft = '100px';
+    imageselect.style.marginLeft = '100px';
     
 };
