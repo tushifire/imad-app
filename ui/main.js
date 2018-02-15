@@ -4,3 +4,13 @@ console.log('Loaded!');
 var element = document.getElementById('maintext');
 
 element.innerText = 'NEw value';
+
+
+// move image 
+
+var imageselect = document.getElementById('img');
+
+imageselect.onclick = function(){
+    imageselect.style.marginleft = '100px';
+    
+};
