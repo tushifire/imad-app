@@ -23,7 +23,7 @@ button.onclick = function(){
     
     //Render the variable on the correct span.
     //Make a request to the counter endpoint
-    request.open('GET','http://http://tushifire.imad.hasura-app.io/counter',true);
+    request.open('GET','http://tushifire.imad.hasura-app.io/counter',true);
     request.send(null);
     
 };
