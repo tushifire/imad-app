@@ -33,7 +33,7 @@ app.get('/counter', function(req,res){
 });
 
 app.get('/ui/mojo.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'mojo.png'));
 });
 
 app.get('/ui/main.js', function (req, res) {
